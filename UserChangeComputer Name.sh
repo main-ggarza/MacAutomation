@@ -1,7 +1,5 @@
 #!/bin/bash
 
-usr=$(whoami)
-
 # Use AppleScript to prompt for input
 customComputerName=$(osascript -e 'tell app "System Events" to display dialog "Enter Computer Name:" default answer "Add the desired computer Name" buttons {"OK"} default button 1' \
     -e 'text returned of result')
