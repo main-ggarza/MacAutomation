@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Define an array of our baseline applications. The only app missing is ManageEngine. 
-applications=("globalProtect.app" "falcon.app" "slack.app" "Microsoft Outlook.app" "Microsoft Excel.app" "Microsoft Word.app" "Microsoft PowerPoint.app" "Microsoft OneNote.app" "OneDrive.app" "zoom.us.app" "google Chrome.app")
+# Define an array of our baseline applications. 
+applications=("application1" "application2" "application3" "application4" "application5")
 
 # Function to check if an application is installed. The application needs to be in /Applications in order for this to work. 
 function is_app_installed() {
