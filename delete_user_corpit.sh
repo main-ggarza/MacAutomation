@@ -8,7 +8,7 @@
 
 
 # Define the username to search for and delete
-username="corpit"
+username="admin"
 
 # Check if the username exists in the user list
 if dscl . -list /Users | grep -q "^$username$"; then
